@@ -7,6 +7,14 @@ body {
   text-align: center;
   font-size: 50px;
   color:white;
+  transition: 500ms ease;
+  font-variation-settings: "wght" 300;
+}
+
+#pageTitle:hover{
+  letter-spacing: 1px;
+  font-variation-settings: "wght" 500; 
+  text-shadow: 5px 5px grey
 }
 
 #planets {
@@ -19,21 +27,31 @@ body {
   }
 
 #planets tr td {
-  padding: 29px;
+  padding: 26px;
   font-size: 20px;
+}
+
+#planets tr td:nth-child(even){
+  background-color:rgb(45, 45, 45);
+}
+
+#planets tr td:nth-child(odd){
+  background-color:black;
 }
 
 #planets thead{
   font-size:25px;
+  background-color:rgb(30, 30, 30);
 }
 
 .planetImages {
-    height:150px;
-    width:150px;
+    height:190px;
+    width:190px;
     border-radius:9px;
 }
 
 .planetData {
   font-size: 25px;
   font-weight: bold;
+  background-color:rgb(45, 45, 45); 
 }
