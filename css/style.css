@@ -3,6 +3,8 @@
   }
 
 .planetImages {
+    height: 125px;
+    width: 125px;
     border-radius: 10px;
     width: 50%
 }
