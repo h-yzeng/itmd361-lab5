@@ -1,5 +1,5 @@
 body {
- background-color: black;
+  background-color: black;
 }
 
 #pageTitle {
@@ -24,7 +24,7 @@ body {
   text-align:center;
   font-family: Calibri, sans-serif;
   color:white;
-  }
+}
 
 #planets tr td {
   padding: 26px;
@@ -45,9 +45,9 @@ body {
 }
 
 .planetImages {
-    height:190px;
-    width:190px;
-    border-radius:9px;
+  height:190px;
+  width:190px;
+  border-radius:9px;
 }
 
 .planetData {
