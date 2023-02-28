@@ -1,3 +1,8 @@
 #planets td, th {
 	border: 1px solid;
   }
+
+.planetImages {
+    border-radius: 10px;
+    width: 50%
+}
