@@ -1,9 +1,39 @@
-#planets td, th {
-	border: 1px solid;
+body {
+ background-color: black;
+}
+
+#pageTitle {
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+#planets {
+	border-collapse:collapse;
+  padding:15px;
+  width:100%;
+  text-align:center;
+  font-family: Calibri, sans-serif;
+  color:white;
   }
 
+#planets tr td {
+  padding: 29px;
+  font-size: 20px;
+}
+
+#planets thead{
+  font-size:25px;
+}
+
 .planetImages {
-    height: 125px;
-    width: 125px;
-    border-radius: 10px;
+    height:150px;
+    width:150px;
+    border-radius:9px;
+}
+
+.planetData {
+  font-size: 25px;
+  font-weight: bold;
 }
